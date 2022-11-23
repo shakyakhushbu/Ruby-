@@ -1,0 +1,31 @@
+we Cant create file with r and r+
+we Cant create file with w and w+.a and a+
+
+
+
+# f = File.new("hlw.txt","w")
+# f = File.open("Hlw.txt","w")
+# f.syswrite("Hello")
+# f.close
+
+
+
+
+# f = f.sysread("hlw.txt","r+")
+# con = f.readlines()
+# puts con 
+#here you cant open file because it is only i write mode
+
+
+
+# f = File.new("Hlw.txt","w+")
+# f.close
+# f = File.open("Hlw.txt","w")#it will open in only read write mode not in read mode only
+# f.syswrite("Hello World")
+# f.close
+
+
+
+#r+ starts at beginning of file, but will not create a new file if it doesn't exists.
+#w+ truncates existing file to zero length if the file exists, otherwise creates a new file.
+#a+ starts at end of file if file exists, otherwise creates a new file.

@@ -1,0 +1,21 @@
+INSTANCE VARIABLE
+Instance variable are different for every object
+they dont need to be initialze they will have null value 
+instance variable are initialze at the time of object creation
+instance variable will have access to that class only it will not use in subclass
+an instance variable can be define in a class usinng @ keyword
+
+difference between p puts 
+
+
+CLASS VARIABLE
+
+Class variable can be shared with subclass and class
+here we have deifine class variable which will change with each instance
+A class variavle can be defined outside the class also but its value will be changed and it will give us warning
+and in block also it will put warning
+
+
+
+
+Inside the method there is no access to variables initialized outside the method, and outside the method there is no access to variables initialized inside the method. An exception is if you pass a variable into a method as an argument. For example, we can fix our code by doing this.

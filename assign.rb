@@ -1,0 +1,8 @@
+# puts (a=20)
+# puts (a+=10)
+# puts (a-+10)
+puts (a=10)
+# puts (a*=10)
+# puts (a%=2)
+puts (a/=2)
+puts (a**=2)
